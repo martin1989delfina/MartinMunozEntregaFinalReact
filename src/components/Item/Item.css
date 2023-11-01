@@ -1,0 +1,47 @@
+.listGrup{
+    display: flex;
+}
+.CardItem {
+    display: flex;
+    flex-direction: column;
+    background-color: #729d9e;
+    border: 1px solid #686464;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.Header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.ItemImg {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.Info {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.ItemFooter {
+    margin-top: 10px;
+}
+
+.Option {
+    background-color: #3c00ff;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.Option:hover {
+    background-color: #8988af;
+}
